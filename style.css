@@ -63,13 +63,18 @@ ul {
   border-radius: 40px;
 }
 
-/* #browse {
-  position: absolute;
+#browse {
+  /* position: absolute;
   top: 23%;
-  left: 70%;
+  left: 70%; */
   background: none;
   border: none;
-} */
+  font-size: 0.9em;
+  background: none;
+  border: none;
+  color: white;
+  padding-right: 5px;
+}
 
 #dropdown {
   position: absolute;
@@ -82,18 +87,6 @@ ul {
 
 #dropdown i {
   margin-top: 3px;
-}
-
-#browse {
-  /* position: absolute;
-  top: 23%;
-  left: 72%; */
-  font-size: 0.9em;
-  background: none;
-  border: none;
-  color: white;
-  padding-right: 5px;
-  /* display: flex; */
 }
 
 .searchBtn {
@@ -180,7 +173,7 @@ ul {
 .buttons {
   /* text-align: center; */
   display: none;
-  /* position: absolute; */
+  position: absolute;
   background-color: #f1f1f1;
   /* min-width: 160px; */
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -208,7 +201,8 @@ ul {
   /* background: none; */
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
   z-index: 1;
-  position: absolute;
+  /* position: absolute;
+  top: 25%; */
 }
 
 .buttons button {
@@ -319,7 +313,6 @@ p {
 .game_container {
   /* border-bottom: 2px black solid; */
   display: flex;
-
   /* justify-content: space-between; */
   /* align-content: space-between; */
   align-items: center;
@@ -368,6 +361,18 @@ p {
     flex-wrap: wrap;
   }
 
+  .game_container {
+    margin: 15px 30px 15px 30px;
+    padding: 0;
+  }
+
+  .game_description {
+    max-width: 75%;
+  }
+
+  .category_link {
+    max-width: 15%;
+  }
   /* #browse {
     position: absolute;
     top: 23%;
